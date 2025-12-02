@@ -81,6 +81,10 @@ fetch(jsonPath)
                         <div class="cont_text_inner text_wrap cont_text_info">
                             <div class="text text1">`+item.goods_eng_name+`</div>
                         </div>
+						<div class="cont_text_inner text_wrap cont_text_type">
+                            <div class="text `+item.goods_type+`">`+item.goods_type+`</div>
+                        </div>
+						
                     </div>
                 </div>
             </div>

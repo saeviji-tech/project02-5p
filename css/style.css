@@ -269,7 +269,7 @@
 					.mobile_menu_icon_open .mobile_menu_icon_bar:after{background:#fff !important;}
 
 /* cont */
-	.cont_wrap{padding:0; padding-top:115px;min-height:1000px;}
+	.cont_wrap{padding:0; padding-top:115px;padding-bottom:100px;min-height:1000px;}
 	.main_body .cont_wrap{padding-top:0 !important;}
 		.main_body .cont_box{overflow:hidden;}
 
@@ -502,7 +502,7 @@
 
 
 	/* cont */
-		.cont_wrap{padding:0; padding-top:115px;min-height:1000px;}
+		.cont_wrap{padding:0; padding-top:115px;padding-bottom:100px;min-height:1000px;}
 			.cont_box{padding:50px 20px !important;}
 			
 	

@@ -74,7 +74,7 @@
 		<ul>
 			<li><a href="./">HOME</a></li>
 			<li><a href="./goods_order.jsp?cate=m_rec">DOC5 오더</a></li>
-			<li>전체메뉴</li>
+			<li><a href="#." class="top_login" data-bs-toggle="modal" data-bs-target="#fullPage" title="마이페이지">전체메뉴</a></li>
 		</ul>
 	</div>
 	

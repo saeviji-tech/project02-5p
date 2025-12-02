@@ -53,6 +53,25 @@
 	</div>
 </div>
 
+<!-- 전체페이지 Modal - FullPage -->
+<div class="modal fade up" id="fullPage">
+	<div class="modal-dialog modal-fullscreen">
+		<div class="modal-content">
+			
+			<!-- Modal Header -->
+			<div class="modal-header">
+			<h4 class="modal-title">전체페이지</h4>
+			<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+			</div>
+
+			<!-- Modal body -->
+			<div class="modal-body">
+			Modal body..
+			</div>
+		</div>
+	</div>
+</div>
+
 <<!-- 로그인 Modal -->
 <div class="modal fade" id="mlogin" tabindex="-1" aria-labelledby="mloginLabel" aria-hidden="true">
   <div class="modal-dialog">
