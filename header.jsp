@@ -79,9 +79,9 @@
 	<link rel="stylesheet" type="text/css" href="https://img.79plus.co.kr/megahp/common/css/swiper.min.css?ver=202508271045">
 	<script type="text/javascript" src="https://img.79plus.co.kr/megahp/common/js/swiper.min.js"></script>
 
-	<script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="./assets/js/color-modes.js"></script>
-<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<script src="./js/assets/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/assets/js/color-modes.js"></script>
+<link href="./js/assets/dist/css/bootstrap.min.css" rel="stylesheet" />
 	<link href="./css/sign-in.css" rel="stylesheet" />
 	<script type="text/javascript" src="./js/common.js"></script>
 </head>
