@@ -73,7 +73,7 @@
 	<div class="bottomMenu">
 		<ul>
 			<li><a href="./">HOME</a></li>
-			<li><a href="./goods_order.jsp?cate=m_rec">5P 오더</a></li>
+			<li><a href="./goods_order.jsp?cate=m_rec">DOC5 오더</a></li>
 			<li>전체메뉴</li>
 		</ul>
 	</div>

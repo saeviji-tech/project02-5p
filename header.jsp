@@ -110,7 +110,7 @@
 			<div class="head">
 				<div class="head_logo">
 					<a href="/">
-						<div class="head_logo"><img src="./img/5p_team.png" class="head_logo_img_fixed"></div>
+						<div class="head_logo"><img src="./img/doc5_logo.png" class="head_logo_img_fixed"></div>
 						<!-- <img src="https://img.79plus.co.kr/megahp/common/img/new_logo.png" class="head_logo_img_fixed"> -->
 						<img src="https://img.79plus.co.kr/megahp/common/img/new_logo_b.png" class="head_logo_img">
 					</a>

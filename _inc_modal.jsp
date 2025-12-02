@@ -65,7 +65,7 @@
     <main class="form-signin w-100 m-auto">
       <form>
 		<div style="text-align:center;">
-        <img src="./img/5p_team.png" class="" style="margin-bottom:60px;width:150px;">
+        <img src="./img/doc5_logo.png" class="" style="margin-bottom:60px;width:150px;">
 	   </div>
         <h1 class="h3 mb-3 fw-normal">로그인 정보</h1>
         <div class="form-floating">

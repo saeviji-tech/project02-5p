@@ -130,7 +130,7 @@ switch(cate){
 			<div class="head">
 				
 				<div class="head_title">
-					5P 오더
+					DOC5 오더
 				</div>
 				
 				<div class="mobile_top_icon_wrap" >
