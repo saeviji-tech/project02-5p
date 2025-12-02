@@ -41,14 +41,14 @@ switch(cate){
 <!doctype html>
 <html lang="ko">
 <head>
-	<title>5PMGC커피</title>
+	<title>DOC5커피</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-	<meta name="title" content="5PMGC커피">
-	<meta name="Subject" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
-	<meta name="keywords" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
-	<meta name="Descript-xion" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
-	<meta name="Description" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
+	<meta name="title" content="DOC5커피">
+	<meta name="Subject" content="DOC5 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
+	<meta name="keywords" content="DOC5 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
+	<meta name="Descript-xion" content="DOC5 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
+	<meta name="Description" content="DOC5커피 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
 	<meta name="Publisher" content="chingooplus">
 	<meta name="Other Agent" content="chingooplus">
 	<meta name="Distribution" content="chingooplus">
@@ -58,11 +58,11 @@ switch(cate){
 	<!-- <meta name="Robots" content="noindex"> -->
 	<!-- webmaster start -->
 	<meta property="og:type" content="website">
-	<meta property="og:title" content="5PMGC커피">
-	<meta property="og:site_name" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
-	<meta property="og:description" content="5P커피 커피전문점, 프랜차이즈, 5P엠지씨커피, 빅사이즈 투샷, 가맹안내, 테이크아웃">
-	<meta property="og:url" content="https://www.mega-mgccoffee.com/">
-	<meta property="og:image" content="/thumbnail.png?ver=202508271045">
+	<meta property="og:title" content="DOC5커피">
+	<meta property="og:site_name" content="DOC5 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
+	<meta property="og:description" content="DOC5 커피전문점, 프랜차이즈, 빅사이즈 투샷, 테이크아웃">
+	<meta property="og:url" content="http://192.168.100.185:8080/goods_order.jsp?cate=m_rec">
+	<meta property="og:image" content="/img/doc5_logo.png">
 	<!-- webmaster end -->
 	<!-- app start-->
 	<meta property="al:ios:url" content="applinks://docs">
@@ -71,11 +71,11 @@ switch(cate){
 	<meta property="al:android:url" content="applinks://docs">
 	<meta property="al:android:app_name" content="App Links">
 	<meta property="al:android:package" content="org.applinks">
-	<meta property="al:web:url" content="http://applinks.org/documentation">
+	<meta property="al:web:url" content="http://192.168.100.185:8080/goods_order.jsp?cate=m_rec">
 	<!-- app end-->
-	<link rel="canonical" href="https://www.mega-mgccoffee.com/">
-	<link rel="icon" href="/favicon.ico?ver=202508271045" sizes="16x16">
-	<link rel="icon" href="/favicon.ico?ver=202508271045" sizes="32x32">
+	<link rel="canonical" href="http://192.168.100.185:8080/goods_order.jsp?cate=m_rec">
+	<link rel="icon" href="/favicon.ico" sizes="16x16">
+	<link rel="icon" href="/favicon.ico" sizes="32x32">
 
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;600;700;900&display=swap">
@@ -128,7 +128,13 @@ switch(cate){
 	<div class="wrap">
 		<div class="head_wrap">
 			<div class="head">
-				
+				<div class="head_logo">
+					<a href="/">
+						<div class="head_logo"><img src="./img/doc5_logo.png" class="head_logo_img_fixed"></div>
+						<!-- <img src="https://img.79plus.co.kr/megahp/common/img/new_logo.png" class="head_logo_img_fixed"> -->
+						<img src="https://img.79plus.co.kr/megahp/common/img/new_logo_b.png" class="head_logo_img">
+					</a>
+				</div>
 				<div class="head_title">
 					DOC5 오더
 				</div>

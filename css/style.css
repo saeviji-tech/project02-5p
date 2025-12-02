@@ -260,8 +260,7 @@
     
 /* head */
 
-	
-     .head_title {font-size:20px;font-weight:600;color:#6f6f6f; text-shadow: 1px 1px #fdd000;line-height:80px;height:80px;}
+     .head_title {position:absolute;top:0;left:20px;font-size:20px;font-weight:600;color:#6f6f6f; text-shadow: 1px 1px #fdd000;line-height:80px;height:80px;}
      .mobile_top_icon_wrap {position:absolute;top:0;right:-20px}
      .mobile_top_icon_wrap > div {right:0;float:right;margin:5px 5px ;}
 

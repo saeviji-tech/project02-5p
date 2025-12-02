@@ -90,7 +90,7 @@
         <button class="btn btn-primary w-100 py-2" type="submit">
           로그인 하기
         </button>
-        <p class="mt-5 mb-3 text-body-secondary">&copy; PROJECT02 5P TEAM.</p>
+        <p class="mt-5 mb-3 text-body-secondary">&copy; PROJECT02 DOC5 TEAM.</p>
       </form>
     </main>
       </div>
