@@ -86,6 +86,7 @@
 	<script type="text/javascript" src="./js/common.js"></script>
 </head>
 <body>
+	<%@ include file="_inc_modal.jsp" %>
 	<style>
 		.bscookieframe {
 			position: absolute;
