@@ -11,7 +11,7 @@
 				<div class="cont_boxs text_center">
 					<div class="cont_title_wrap">
 						<div class="cont_title">
-							<b>PROJECT.02 </b><b></b><br>5P TEAM</div>
+							<b>PROJECT.02 </b><b></b><br>DOC5 TEAM</div>
 					</div>
 				</div>
 			</div>
@@ -34,7 +34,7 @@
 											<b>ㄱl억 ㄴr니 …? 달콤했던 그때 우리들….</b>
 										</div>
 										<div class="cont_text">
-											추운 겨울도 따뜻하게 녹여줄 <br>그때 그 시절 추억 소환 준비 완료!<br>5PMGC커피에서 우己lㄱr バr己бㅎŁ 맛을 만나보세요!										</div>
+											추운 겨울도 따뜻하게 녹여줄 <br>그때 그 시절 추억 소환 준비 완료!<br><b>DOC5 커피</b>에서 우己lㄱr バr己бㅎŁ 맛을 만나보세요!										</div>
 									</div>
 								</li>
 								<li>
@@ -46,10 +46,10 @@
 				<div class="cont_boxs menu_box">
 					<div class="cont_title_wrap text_center">
 						<div class="cont_title_info">
-							5PMGC커피의 엄선된 메뉴						</div>
+							DOC5 커피의 엄선된 메뉴						</div>
 						<div class="cont_title robo">
 							<h2>
-								MEGA MENU							</h2>
+								DOC5 MENU							</h2>
 						</div>
 					</div>
 					<div class="cont_text_wrap text_center">
