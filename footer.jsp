@@ -112,7 +112,77 @@
 		});
 	</script>
 	
+<style>
+	/* 팝업 컨테이너 (초기 숨김 상태) */
+.popup-container {
+    position: fixed; /* 뷰포트에 고정 */
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0; /* 초기 높이를 0으로 설정하여 숨김 */
+    background-color: rgba(0, 0, 0, 0); /* 반투명 배경 */
+    overflow: hidden; /* 내용 숨김 */
+    transition: height 0.5s ease-in-out; /* 높이 변화에 애니메이션 적용 */
+    z-index: 100; /* 다른 요소 위에 표시 */
+
+}
+
+/* 팝업 내용 */
+.popup-content {
+    background-color: #fefefe;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    /* 팝업 내용 자체는 상단에 위치하도록 설정 */
+    position: absolute;
+    bottom: 0;
+	border:1px solid #eee;
+	border-radius: 20px 20px 0 0px;
+}
+
+/* 팝업이 보일 때 적용될 클래스 */
+.popup-container.show {
+    height: 300px; /* 팝업이 올라왔을 때의 높이 */
+
+}
+
+</style>
+<script>
+	$(document).ready(function(){
+	// 버튼과 팝업 요소 가져오기
+const openPopupBtn = document.getElementById('openPopupBtn');
+const closePopupBtn = document.getElementById('closePopupBtn');
+const bottomPopup = document.getElementById('bottomPopup');
+
+// 팝업 열기 버튼 클릭 이벤트
+openPopupBtn.addEventListener('click', () => {
+    bottomPopup.classList.add('show');
+});
+
+// 팝업 닫기 버튼 클릭 이벤트
+closePopupBtn.addEventListener('click', () => {
+    bottomPopup.classList.remove('show');
+});
+
+// (선택 사항) 팝업 외부 클릭 시 닫기
+window.addEventListener('click', (event) => {
+    if (event.target === bottomPopup) {
+        bottomPopup.classList.remove('show');
+    }
+});
+	});
+</script>
 	
-	
+
+<div id="bottomPopup" class="popup-container">
+    <div class="popup-content">
+        <h2>하단 팝업입니다</h2>
+        <p>이곳에 팝업 내용을 입력하세요.</p>
+        <button id="closePopupBtn">닫기</button>
+    </div>
+</div>
+
+
+
 </body>
 </html>
