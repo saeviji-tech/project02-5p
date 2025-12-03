@@ -6,7 +6,7 @@
                <div class="goods_list_title"><string style="font-weight:600">[<%=cTitle%>]</string> 상품이 존재하지 않습니다.</div>
                 <!-- Button trigger modal -->
 
-<button id="openPopupBtn">하단 팝업 열기</button>
+<button id="openPopupBtn">옵션 팝업 열기</button>
 
 <link rel="stylesheet" href="./css/item.css">
 
