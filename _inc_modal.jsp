@@ -63,10 +63,53 @@
 			<h4 class="modal-title">전체페이지</h4>
 			<button type="button" class="btn-close" data-bs-dismiss="modal"></button>
 			</div>
+<style>
+.fullpage-intext {
+	font-size: 24px;
+	text-align: left;
+	margin:20px 0px 30xp 0px;
+	line-height:50px;
+	text-indent: 30px;
+}
+.fullpage-stamp {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 20px ;
+	background-color: #f5f5f5;
+	line-height:70px;
+}
+.fullpage-menu ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}	
 
+.fullpage-menu ul li {
+	font-size: 20px;
+	text-align: left;
+	border-bottom: 1px solid #eee;
+	padding:15px 0px;
+	line-height:40px;
+	text-indent: 20px;
+	border-radius: 20px ;
+}
+</style>
 			<!-- Modal body -->
 			<div class="modal-body">
-			Modal body..
+				<div class="fullpage-intext">DOC5님 반가워요 👋</div>
+				<div class="fullpage-stamp">스탬프 5/10</div>
+				<div class="fullpage-menu">
+					<ul>
+						<li><a href="#.">주문내역</a></li>
+						<li><a href="#.">스탬프</a></li>
+						<li><a href="#.">공지사항</a></li>
+						<li><a href="#.">이용안내</a></li>
+						<li><a href="#.">자주묻는 질문</a></li>
+						<li><a href="#.">약관 및 정책서</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
