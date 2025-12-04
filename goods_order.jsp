@@ -4,9 +4,8 @@
 	<div class="cont_wrap menu_wrap">
 		<div class="cont goods_list">
                <div class="goods_list_title"><string style="font-weight:600">[<%=cTitle%>]</string> 상품이 존재하지 않습니다.</div>
-                <!-- Button trigger modal -->
+                
 
-<button id="openPopupBtn">옵션 팝업 열기</button>
 
 <link rel="stylesheet" href="./css/item.css">
 
@@ -69,10 +68,12 @@ fetch(jsonPath)
     data.forEach(item => {
       const html = `
         <li>
+          <a href="./goods_view.jsp?cate=001&goodsno=`+item.goods_no+`">
             <div class="cont_gallery_list_box">
                 <div class="cont_gallery_list_img">
                     <img src="https://img.79plus.co.kr/megahp/manager/upload/menu/20250320000925_1742396965069_ekSqAIVc1L.jpg">
                 </div>
+                
                 <div class="cont_text_box">
                     <div class="cont_text">
                         <div class="cont_text_inner text_wrap cont_text_title">
@@ -87,7 +88,9 @@ fetch(jsonPath)
 						
                     </div>
                 </div>
+               
             </div>
+             </a>
         </li>`;
       i++;
       list.insertAdjacentHTML("beforeend", html);
